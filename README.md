@@ -21,6 +21,9 @@ You can view the live version of the project by following this [link](https://al
 - Bootstrap
   <img style="display: block;" src="https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png" width="30">
   <br>
+- JS
+  <img style="display: block;" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="30">
+  <br>
 
 ## Installation
 
