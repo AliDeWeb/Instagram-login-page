@@ -22,7 +22,9 @@ img[alt="Facebook Icon"] {
   width: 28px;
   height: 28px;
 }
-.login_with_facebook_link {
+.login_with_facebook_link,
+.forgot_password_link,
+.sign_up_link {
   color: #1178f2;
 }
 
