@@ -25,8 +25,8 @@
           </div>
           <div class="form-floating mb-3">
             <input
-              type="email"
-              class="email_input form-control"
+              type="text"
+              class="username-input email_input form-control"
               id="floatingInput"
               placeholder="name@example.com"
             />
@@ -35,8 +35,8 @@
           <div class="form-floating">
             <input
               type="password"
-              class="password_input form-control"
-              id="floatingPassword"
+              class="password-input password_input form-control"
+              id="floatingPassword "
               placeholder="Password"
             />
             <label for="floatingPassword">Password</label>
@@ -45,6 +45,7 @@
           <button
             type="submit"
             class="btn btn-primary d-block w-100 mt-4"
+            id="submit-btn"
             disabled
           >
             Login
@@ -162,7 +163,9 @@
         </div>
       </div>
     </footer>
+
     <script src="./libs/bootstrap.min.js"></script>
+    <script src="./libs/sweetalert.js"></script>
     <script src="./js/app.js"></script>
   </body>
 </html>
