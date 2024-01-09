@@ -18,6 +18,13 @@ form {
 .password_input {
   background-color: #fafafa;
 }
+img[alt="Facebook Icon"] {
+  width: 28px;
+  height: 28px;
+}
+.login_with_facebook_link {
+  color: #1178f2;
+}
 
 @media screen and (max-width: 576px) {
   .container {
