@@ -27,6 +27,10 @@ img[alt="Facebook Icon"] {
 .sign_up_link {
   color: #1178f2;
 }
+footer * {
+  color: #737373;
+  text-decoration: none;
+}
 
 @media screen and (max-width: 576px) {
   .container {
@@ -34,6 +38,8 @@ img[alt="Facebook Icon"] {
     padding-left: 25px !important;
     padding-top: 15px !important;
     padding-bottom: 15px !important;
+
+    border: none !important;
   }
 
   form {
