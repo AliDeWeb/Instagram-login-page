@@ -19,7 +19,9 @@ window.addEventListener(`load`, () => {
       passwordInputSelector.value.trim().length > 4
     ) {
       submitBtnSelector.removeAttribute(`disabled`);
-    }
+    } else {
+ submitBtnSelector.addAttribute(`disabled`, "")
+}
   });
   passwordInputSelector.addEventListener(`keyup`, () => {
     if (
@@ -27,7 +29,8 @@ window.addEventListener(`load`, () => {
       passwordInputSelector.value.trim().length > 4
     ) {
       submitBtnSelector.removeAttribute(`disabled`);
-    }
+    } else {
+ submitBtnSelector.addAttribute(`disabled`, "")
   });
 
   submitBtnSelector.addEventListener(`click`, (e) => {
