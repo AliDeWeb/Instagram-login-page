@@ -30,7 +30,7 @@ window.addEventListener(`load`, () => {
     ) {
       submitBtnSelector.removeAttribute(`disabled`);
     } else {
- submitBtnSelector.addAttribute(`disabled`, "")
+ submitBtnSelector.addAttribute(`disabled`, "")}
   });
 
   submitBtnSelector.addEventListener(`click`, (e) => {
