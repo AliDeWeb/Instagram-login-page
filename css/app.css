@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+form {
+  width: 330px;
+}
+.instagram_icon_wrapper {
+  width: 200px;
+  height: 120px;
+}
+.email_input,
+.password_input {
+  background-color: #fafafa;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+
+  form {
+    width: 240px;
+  }
+  .instagram_icon_wrapper {
+    width: 150px;
+    height: 80px;
+  }
+  .email_input,
+  .password_input {
+    background-color: #fafafa;
+  }
+  label {
+    font-size: 12px;
+  }
+}
