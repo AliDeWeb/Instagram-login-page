@@ -20,8 +20,8 @@ window.addEventListener(`load`, () => {
     ) {
       submitBtnSelector.removeAttribute(`disabled`);
     } else {
- submitBtnSelector.addAttribute(`disabled`, "")
-}
+      submitBtnSelector.setAttribute(`disabled`, "");
+    }
   });
   passwordInputSelector.addEventListener(`keyup`, () => {
     if (
@@ -30,7 +30,8 @@ window.addEventListener(`load`, () => {
     ) {
       submitBtnSelector.removeAttribute(`disabled`);
     } else {
- submitBtnSelector.addAttribute(`disabled`, "")}
+      submitBtnSelector.setAttribute(`disabled`, "");
+    }
   });
 
   submitBtnSelector.addEventListener(`click`, (e) => {
