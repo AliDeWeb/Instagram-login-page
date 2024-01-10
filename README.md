@@ -27,5 +27,5 @@ You can view the live version of the project by following this [link](https://al
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/AliDeWeb/Instagram-login.git`
-2. Open the project folder: `cd Instagram-login`
+1. Clone the repository: `git clone https://github.com/AliDeWeb/Instagram-login-page.git`
+2. Open the project folder: `cd Instagram-login-page`
