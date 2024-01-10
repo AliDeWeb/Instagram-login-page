@@ -60,3 +60,9 @@ footer * {
     display: none;
   }
 }
+
+@media screen and (max-height: 780px) {
+  footer {
+    display: none;
+  }
+}
