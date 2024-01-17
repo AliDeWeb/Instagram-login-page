@@ -63,7 +63,7 @@ footer * {
   }
 }
 
-@media screen and (max-height: 780px) {
+@media screen and (max-height: 950px) {
   footer {
     display: none;
   }
