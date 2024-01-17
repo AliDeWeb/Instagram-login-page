@@ -8,7 +8,7 @@ Instagram Login Page developed using html, css, js, bootstrap.
 
 ## View Online
 
-You can view the live version of the project by following this [link](https://alideweb.github.io/Instagram-login/).
+You can view the live version of the project by following this [link]( https://alideweb.github.io/Instagram-login-page/).
 
 ## Technologies Used
 
